@@ -11,8 +11,8 @@ public class Main {
         s1.sort(0, s1.vet.length - 1);
         QuickSort s2 = new QuickSort(vet2);
         s2.sort(0, s2.vet.length - 1);
-        Heap s3 = new Heap();
-        s3.heapSort(vet3);
+        HeapSort s3 = new HeapSort(vet3);
+        s3.sort();
         
         int x = 0;        
         System.out.println("MergeSort:\nVetor desordenado:");
