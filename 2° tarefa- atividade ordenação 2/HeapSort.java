@@ -16,7 +16,7 @@ public class HeapSort {
             maior = l;
         else
             maior = cord;
-        if(r < vet.length  && vet[r] > vet[cord])
+        if(r < vet.length  && vet[r] > vet[maior])
             maior = r;
         if(maior != cord){
             int temp = vet[cord];
