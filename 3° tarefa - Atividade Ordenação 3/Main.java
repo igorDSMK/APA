@@ -57,7 +57,7 @@ public class Main {
         s3.sort();
         //s4.sort();
         long Tempopassado = System.currentTimeMillis() - tempoInicial;
-        System.out.println("tempo de ordenação em counting Sort: " + Tempopassado + " milissegundos");
+        System.out.println("tempo de ordenação: " + Tempopassado + " milissegundos");
         x = 0;
         System.out.println("\nVetor ordenado:");
         while(x < vet3.length){
