@@ -11,7 +11,6 @@ public class HeapSort {
         int l = cord*2;
         int r = (cord*2) + 1;       
         int maior;
-        System.out.println(l);
         if(l < vet.length  && vet[l] > vet[cord])
             maior = l;
         else
